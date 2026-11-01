@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Green Owl Labs · calculadora de huella de carbono e hídrica

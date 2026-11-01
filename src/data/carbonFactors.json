@@ -1,0 +1,1548 @@
+[
+  {
+    "id": "elec_pe",
+    "label": {
+      "es": "Electricidad de red — Perú (SEIN)",
+      "en": "Grid electricity — Peru (SEIN)"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.43,
+    "uncertainty": 0.15,
+    "sourceId": "minam_pe",
+    "country": "PE",
+    "year": 2022,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec",
+    "notes": {
+      "es": "Factor de red aproximado. Debe contrastarse con el factor vigente publicado por MINAM/COES para el año del inventario; no se usa para verificación externa sin esa comprobación.",
+      "en": "Approximate grid factor. Must be checked against the current MINAM/COES factor for the inventory year; not for external verification without that check."
+    }
+  },
+  {
+    "id": "elec_us",
+    "label": {
+      "es": "Electricidad de red — Estados Unidos",
+      "en": "Grid electricity — United States"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.371,
+    "uncertainty": 0.12,
+    "sourceId": "epa_egrid",
+    "country": "US",
+    "year": 2022,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_gb",
+    "label": {
+      "es": "Electricidad de red — Reino Unido",
+      "en": "Grid electricity — United Kingdom"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.177,
+    "uncertainty": 0.05,
+    "sourceId": "defra2025",
+    "country": "GB",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_es",
+    "label": {
+      "es": "Electricidad de red — España",
+      "en": "Grid electricity — Spain"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.19,
+    "uncertainty": 0.15,
+    "sourceId": "ree_es",
+    "country": "ES",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_mx",
+    "label": {
+      "es": "Electricidad de red — México",
+      "en": "Grid electricity — Mexico"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.435,
+    "uncertainty": 0.15,
+    "sourceId": "semarnat_mx",
+    "country": "MX",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_co",
+    "label": {
+      "es": "Electricidad de red — Colombia",
+      "en": "Grid electricity — Colombia"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.164,
+    "uncertainty": 0.15,
+    "sourceId": "xm_co",
+    "country": "CO",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_cl",
+    "label": {
+      "es": "Electricidad de red — Chile",
+      "en": "Grid electricity — Chile"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.33,
+    "uncertainty": 0.15,
+    "sourceId": "coord_cl",
+    "country": "CL",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_ar",
+    "label": {
+      "es": "Electricidad de red — Argentina",
+      "en": "Grid electricity — Argentina"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.36,
+    "uncertainty": 0.18,
+    "sourceId": "cammesa_ar",
+    "country": "AR",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_br",
+    "label": {
+      "es": "Electricidad de red — Brasil",
+      "en": "Grid electricity — Brazil"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.074,
+    "uncertainty": 0.2,
+    "sourceId": "mcti_br",
+    "country": "BR",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_de",
+    "label": {
+      "es": "Electricidad de red — Alemania",
+      "en": "Grid electricity — Germany"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.38,
+    "uncertainty": 0.12,
+    "sourceId": "uba_de",
+    "country": "DE",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_fr",
+    "label": {
+      "es": "Electricidad de red — Francia",
+      "en": "Grid electricity — France"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.052,
+    "uncertainty": 0.15,
+    "sourceId": "rte_fr",
+    "country": "FR",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_eu",
+    "label": {
+      "es": "Electricidad de red — Unión Europea",
+      "en": "Grid electricity — European Union"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.251,
+    "uncertainty": 0.12,
+    "sourceId": "eea_eu",
+    "country": "EU",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "elec_global",
+    "label": {
+      "es": "Electricidad de red — promedio mundial",
+      "en": "Grid electricity — world average"
+    },
+    "category": "energy",
+    "scope": 2,
+    "unit": "kWh",
+    "value": 0.48,
+    "uncertainty": 0.2,
+    "sourceId": "iea",
+    "country": "GLOBAL",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_elec"
+  },
+  {
+    "id": "natural_gas_m3",
+    "label": {
+      "es": "Gas natural (combustión)",
+      "en": "Natural gas (combustion)"
+    },
+    "category": "energy",
+    "scope": 1,
+    "unit": "m3",
+    "value": 2.06672,
+    "uncertainty": 0.03,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fuel_m3"
+  },
+  {
+    "id": "lpg_l",
+    "label": {
+      "es": "GLP (litros)",
+      "en": "LPG (litres)"
+    },
+    "category": "energy",
+    "scope": 1,
+    "unit": "L",
+    "value": 1.55713,
+    "uncertainty": 0.04,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fuel_l"
+  },
+  {
+    "id": "lpg_kg",
+    "label": {
+      "es": "GLP (kilogramos)",
+      "en": "LPG (kilograms)"
+    },
+    "category": "energy",
+    "scope": 1,
+    "unit": "kg",
+    "value": 2.93936,
+    "uncertainty": 0.04,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fuel_kg"
+  },
+  {
+    "id": "diesel_l",
+    "label": {
+      "es": "Diésel (litros)",
+      "en": "Diesel (litres)"
+    },
+    "category": "energy",
+    "scope": 1,
+    "unit": "L",
+    "value": 2.57082,
+    "uncertainty": 0.03,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fuel_l"
+  },
+  {
+    "id": "petrol_l",
+    "label": {
+      "es": "Gasolina (litros)",
+      "en": "Petrol (litres)"
+    },
+    "category": "energy",
+    "scope": 1,
+    "unit": "L",
+    "value": 2.06916,
+    "uncertainty": 0.03,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fuel_l"
+  },
+  {
+    "id": "heating_oil_l",
+    "label": {
+      "es": "Gasóleo de calefacción (litros)",
+      "en": "Heating oil (litres)"
+    },
+    "category": "energy",
+    "scope": 1,
+    "unit": "L",
+    "value": 2.54016,
+    "uncertainty": 0.03,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fuel_l"
+  },
+  {
+    "id": "refrigerant_r410a",
+    "label": {
+      "es": "Refrigerante R-410A (fugas)",
+      "en": "Refrigerant R-410A (leakage)"
+    },
+    "category": "refrigerants",
+    "scope": 1,
+    "unit": "kg",
+    "value": 2088,
+    "byGwp": {
+      "AR5": 2088,
+      "AR6": 2256
+    },
+    "uncertainty": 0.05,
+    "sourceId": "ipcc_ar6",
+    "country": "GLOBAL",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "notes": {
+      "es": "Mezcla R-32/R-125 (50/50). El valor cambia con el set de GWP seleccionado.",
+      "en": "R-32/R-125 blend (50/50). Value changes with the selected GWP set."
+    }
+  },
+  {
+    "id": "refrigerant_r32",
+    "label": {
+      "es": "Refrigerante R-32 (fugas)",
+      "en": "Refrigerant R-32 (leakage)"
+    },
+    "category": "refrigerants",
+    "scope": 1,
+    "unit": "kg",
+    "value": 677,
+    "byGwp": {
+      "AR5": 677,
+      "AR6": 771
+    },
+    "uncertainty": 0.05,
+    "sourceId": "ipcc_ar6",
+    "country": "GLOBAL",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "refrigerant_r134a",
+    "label": {
+      "es": "Refrigerante R-134a (fugas)",
+      "en": "Refrigerant R-134a (leakage)"
+    },
+    "category": "refrigerants",
+    "scope": 1,
+    "unit": "kg",
+    "value": 1300,
+    "byGwp": {
+      "AR5": 1300,
+      "AR6": 1530
+    },
+    "uncertainty": 0.05,
+    "sourceId": "ipcc_ar6",
+    "country": "GLOBAL",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "refrigerant_r22",
+    "label": {
+      "es": "Refrigerante HCFC-22 (fugas)",
+      "en": "Refrigerant HCFC-22 (leakage)"
+    },
+    "category": "refrigerants",
+    "scope": 1,
+    "unit": "kg",
+    "value": 1810,
+    "byGwp": {
+      "AR5": 1810,
+      "AR6": 1960
+    },
+    "uncertainty": 0.05,
+    "sourceId": "ipcc_ar6",
+    "country": "GLOBAL",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "sf6",
+    "label": {
+      "es": "Hexafluoruro de azufre (SF6)",
+      "en": "Sulphur hexafluoride (SF6)"
+    },
+    "category": "refrigerants",
+    "scope": 1,
+    "unit": "kg",
+    "value": 23500,
+    "byGwp": {
+      "AR5": 23500,
+      "AR6": 25200
+    },
+    "uncertainty": 0.05,
+    "sourceId": "ipcc_ar6",
+    "country": "GLOBAL",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "car_gasoline",
+    "label": {
+      "es": "Coche de gasolina (km)",
+      "en": "Petrol car (km)"
+    },
+    "category": "transport",
+    "scope": 1,
+    "unit": "km",
+    "value": 0.16272,
+    "uncertainty": 0.1,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_car"
+  },
+  {
+    "id": "car_diesel",
+    "label": {
+      "es": "Coche diésel (km)",
+      "en": "Diesel car (km)"
+    },
+    "category": "transport",
+    "scope": 1,
+    "unit": "km",
+    "value": 0.17304,
+    "uncertainty": 0.1,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_car"
+  },
+  {
+    "id": "car_hybrid",
+    "label": {
+      "es": "Coche híbrido (km)",
+      "en": "Hybrid car (km)"
+    },
+    "category": "transport",
+    "scope": 1,
+    "unit": "km",
+    "value": 0.12825,
+    "uncertainty": 0.12,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_car"
+  },
+  {
+    "id": "car_ev",
+    "label": {
+      "es": "Coche eléctrico (km, red promedio)",
+      "en": "Electric car (km, average grid)"
+    },
+    "category": "transport",
+    "scope": 2,
+    "unit": "km",
+    "value": 0.055,
+    "uncertainty": 0.35,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_car",
+    "notes": {
+      "es": "Screening: 0,17 kWh/km × intensidad de red de referencia. Para un inventario verificado, usa el factor de red del país y el consumo real del vehículo.",
+      "en": "Screening: 0.17 kWh/km × reference grid intensity. For a verified inventory, use the country grid factor and the vehicle's real consumption."
+    }
+  },
+  {
+    "id": "motorcycle",
+    "label": {
+      "es": "Motocicleta (km)",
+      "en": "Motorcycle (km)"
+    },
+    "category": "transport",
+    "scope": 1,
+    "unit": "km",
+    "value": 0.11367,
+    "uncertainty": 0.15,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_car"
+  },
+  {
+    "id": "bus",
+    "label": {
+      "es": "Autobús urbano (pasajero·km)",
+      "en": "Local bus (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.12525,
+    "uncertainty": 0.15,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "coach",
+    "label": {
+      "es": "Autocar interurbano (pasajero·km)",
+      "en": "Coach (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.02776,
+    "uncertainty": 0.15,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "rail",
+    "label": {
+      "es": "Tren nacional (pasajero·km)",
+      "en": "National rail (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.03546,
+    "uncertainty": 0.12,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "metro",
+    "label": {
+      "es": "Metro / tren ligero (pasajero·km)",
+      "en": "Metro / light rail (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.0286,
+    "uncertainty": 0.12,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "taxi",
+    "label": {
+      "es": "Taxi / ridesharing (km)",
+      "en": "Taxi / ridesharing (km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "km",
+    "value": 0.21,
+    "uncertainty": 0.3,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "screening"
+  },
+  {
+    "id": "ferry",
+    "label": {
+      "es": "Ferry (pasajero·km)",
+      "en": "Ferry (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.01871,
+    "uncertainty": 0.2,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "flight_domestic",
+    "label": {
+      "es": "Vuelo doméstico (pasajero·km)",
+      "en": "Domestic flight (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.13552,
+    "valueRf": 0.22928,
+    "uncertainty": 0.15,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "notes": {
+      "es": "Incluye 8 % de corrección por distancia. El valor con forzamiento radiativo (RF) está disponible y se activa en el proyecto.",
+      "en": "Includes an 8% distance uplift. The radiative-forcing (RF) value is available and toggled at project level."
+    }
+  },
+  {
+    "id": "flight_short",
+    "label": {
+      "es": "Vuelo corto radio (pasajero·km)",
+      "en": "Short-haul flight (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.07559,
+    "valueRf": 0.12786,
+    "uncertainty": 0.15,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "flight_long",
+    "label": {
+      "es": "Vuelo largo radio, clase media (pasajero·km)",
+      "en": "Long-haul flight, average class (passenger·km)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "pkm",
+    "value": 0.09043,
+    "valueRf": 0.15282,
+    "uncertainty": 0.15,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "hotel_night",
+    "label": {
+      "es": "Noche de hotel (habitación)",
+      "en": "Hotel room-night"
+    },
+    "category": "events",
+    "scope": 3,
+    "scope3Category": 6,
+    "unit": "night",
+    "value": 10.4,
+    "uncertainty": 0.3,
+    "sourceId": "hotel_footprint",
+    "country": "GLOBAL",
+    "year": 2023,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_hotel",
+    "notes": {
+      "es": "Promedio global de hotel; el factor varía por país y categoría. DEFRA 2025 publica 10,4 kg CO2e por habitación-noche para Reino Unido.",
+      "en": "Global hotel average; factor varies by country and segment. DEFRA 2025 publishes 10.4 kg CO2e per room-night for the UK."
+    }
+  },
+  {
+    "id": "homeworking_hour",
+    "label": {
+      "es": "Teletrabajo (hora por persona)",
+      "en": "Homeworking (person-hour)"
+    },
+    "category": "transport",
+    "scope": 3,
+    "scope3Category": 7,
+    "unit": "hour",
+    "value": 0.33378,
+    "uncertainty": 0.4,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified"
+  },
+  {
+    "id": "beef",
+    "label": {
+      "es": "Carne de vacuno",
+      "en": "Beef"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 60,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_beef"
+  },
+  {
+    "id": "lamb",
+    "label": {
+      "es": "Carne de cordero",
+      "en": "Lamb"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 24.5,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_lamb"
+  },
+  {
+    "id": "pork",
+    "label": {
+      "es": "Carne de cerdo",
+      "en": "Pork"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 7.2,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_pork"
+  },
+  {
+    "id": "poultry",
+    "label": {
+      "es": "Carne de ave",
+      "en": "Poultry"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 6.1,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_poultry"
+  },
+  {
+    "id": "fish",
+    "label": {
+      "es": "Pescado y marisco",
+      "en": "Fish and seafood"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 5.4,
+    "uncertainty": 0.4,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fish"
+  },
+  {
+    "id": "eggs",
+    "label": {
+      "es": "Huevos",
+      "en": "Eggs"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 4.5,
+    "uncertainty": 0.25,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_eggs"
+  },
+  {
+    "id": "milk",
+    "label": {
+      "es": "Leche",
+      "en": "Milk"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 3.2,
+    "uncertainty": 0.25,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_milk"
+  },
+  {
+    "id": "cheese",
+    "label": {
+      "es": "Queso",
+      "en": "Cheese"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 21.2,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_cheese"
+  },
+  {
+    "id": "rice",
+    "label": {
+      "es": "Arroz",
+      "en": "Rice"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 4.0,
+    "uncertainty": 0.25,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_rice"
+  },
+  {
+    "id": "cereals",
+    "label": {
+      "es": "Cereales y pan",
+      "en": "Cereals and bread"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 1.3,
+    "uncertainty": 0.25,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_cereals"
+  },
+  {
+    "id": "legumes",
+    "label": {
+      "es": "Legumbres",
+      "en": "Legumes"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 0.9,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_legumes"
+  },
+  {
+    "id": "vegetables",
+    "label": {
+      "es": "Hortalizas",
+      "en": "Vegetables"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 0.5,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_vegetables"
+  },
+  {
+    "id": "fruit",
+    "label": {
+      "es": "Frutas",
+      "en": "Fruit"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 0.7,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_fruit"
+  },
+  {
+    "id": "coffee",
+    "label": {
+      "es": "Café",
+      "en": "Coffee"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 16.5,
+    "uncertainty": 0.35,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_coffee"
+  },
+  {
+    "id": "chocolate",
+    "label": {
+      "es": "Chocolate",
+      "en": "Chocolate"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 18.8,
+    "uncertainty": 0.35,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_chocolate"
+  },
+  {
+    "id": "sugar",
+    "label": {
+      "es": "Azúcar",
+      "en": "Sugar"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 1.2,
+    "uncertainty": 0.3,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_sugar"
+  },
+  {
+    "id": "oils",
+    "label": {
+      "es": "Aceites y grasas",
+      "en": "Oils and fats"
+    },
+    "category": "food",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 3.0,
+    "uncertainty": 0.35,
+    "sourceId": "poore_nemecek",
+    "country": "GLOBAL",
+    "year": 2018,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_oils"
+  },
+  {
+    "id": "meal_standard",
+    "label": {
+      "es": "Comida de evento (menú estándar)",
+      "en": "Event meal (standard menu)"
+    },
+    "category": "events",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "meal",
+    "value": 2.5,
+    "uncertainty": 0.4,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_meal",
+    "notes": {
+      "es": "Estimación de catering (alimentos + preparación) basada en rangos DEFRA/ISO 20121. Para mayor rigor, desglosa los alimentos por kg.",
+      "en": "Catering estimate (food + preparation) based on DEFRA/ISO 20121 ranges. For greater rigour, break food down by kg."
+    }
+  },
+  {
+    "id": "meal_vegetarian",
+    "label": {
+      "es": "Comida de evento (menú vegetariano)",
+      "en": "Event meal (vegetarian menu)"
+    },
+    "category": "events",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "meal",
+    "value": 1.2,
+    "uncertainty": 0.45,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_meal"
+  },
+  {
+    "id": "water_bottle",
+    "label": {
+      "es": "Botella de agua 500 ml (PET)",
+      "en": "500 ml water bottle (PET)"
+    },
+    "category": "events",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "unit",
+    "value": 0.08,
+    "uncertainty": 0.4,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_bottle_unit"
+  },
+  {
+    "id": "clothing",
+    "label": {
+      "es": "Ropa y textiles (kg)",
+      "en": "Clothing and textiles (kg)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 22.31,
+    "uncertainty": 0.3,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_clothing"
+  },
+  {
+    "id": "paper",
+    "label": {
+      "es": "Papel y cartón (kg)",
+      "en": "Paper and board (kg)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 1.2885,
+    "uncertainty": 0.2,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_paper"
+  },
+  {
+    "id": "plastic",
+    "label": {
+      "es": "Plástico virgen (kg)",
+      "en": "Virgin plastic (kg)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 3.1725,
+    "uncertainty": 0.25,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_plastic"
+  },
+  {
+    "id": "aluminium",
+    "label": {
+      "es": "Aluminio (kg)",
+      "en": "Aluminium (kg)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 9.1159,
+    "uncertainty": 0.25,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_metal"
+  },
+  {
+    "id": "steel",
+    "label": {
+      "es": "Acero (kg)",
+      "en": "Steel (kg)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 2.8639,
+    "uncertainty": 0.25,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_metal"
+  },
+  {
+    "id": "glass",
+    "label": {
+      "es": "Vidrio (kg)",
+      "en": "Glass (kg)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 1.4028,
+    "uncertainty": 0.25,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_glass"
+  },
+  {
+    "id": "electronics_usd",
+    "label": {
+      "es": "Electrónica (gasto, USD)",
+      "en": "Electronics (spend, USD)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "USD",
+    "value": 0.25,
+    "uncertainty": 0.45,
+    "sourceId": "epa_useeio",
+    "country": "US",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "notes": {
+      "es": "Factor de gasto (USEEIO) como aproximación. La incertidumbre es alta; sustituir por datos de proveedor cuando existan.",
+      "en": "Spend-based factor (USEEIO) as a proxy. High uncertainty; replace with supplier data where available."
+    },
+    "waterFactorId": "water_usd"
+  },
+  {
+    "id": "services_usd",
+    "label": {
+      "es": "Servicios profesionales (gasto, USD)",
+      "en": "Professional services (spend, USD)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "USD",
+    "value": 0.18,
+    "uncertainty": 0.5,
+    "sourceId": "epa_useeio",
+    "country": "US",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_usd"
+  },
+  {
+    "id": "it_usd",
+    "label": {
+      "es": "Servicios de TI y nube (gasto, USD)",
+      "en": "IT and cloud services (spend, USD)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "USD",
+    "value": 0.22,
+    "uncertainty": 0.5,
+    "sourceId": "epa_useeio",
+    "country": "US",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_usd"
+  },
+  {
+    "id": "furniture_usd",
+    "label": {
+      "es": "Mobiliario y equipamiento (gasto, USD)",
+      "en": "Furniture and equipment (spend, USD)"
+    },
+    "category": "goods",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "USD",
+    "value": 0.25,
+    "uncertainty": 0.5,
+    "sourceId": "epa_useeio",
+    "country": "US",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_usd"
+  },
+  {
+    "id": "digital_gb",
+    "label": {
+      "es": "Datos transferidos (GB)",
+      "en": "Data transferred (GB)"
+    },
+    "category": "digital",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "GB",
+    "value": 0.03,
+    "uncertainty": 0.5,
+    "sourceId": "iea_4e",
+    "country": "GLOBAL",
+    "year": 2020,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_data"
+  },
+  {
+    "id": "streaming_hour",
+    "label": {
+      "es": "Streaming de vídeo (hora)",
+      "en": "Video streaming (hour)"
+    },
+    "category": "digital",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "hour",
+    "value": 0.036,
+    "uncertainty": 0.5,
+    "sourceId": "carbon_trust",
+    "country": "GLOBAL",
+    "year": 2021,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_streaming"
+  },
+  {
+    "id": "waste_mixed",
+    "label": {
+      "es": "Residuos mezclados a vertedero (kg)",
+      "en": "Mixed waste to landfill (kg)"
+    },
+    "category": "waste",
+    "scope": 3,
+    "scope3Category": 5,
+    "unit": "kg",
+    "value": 0.497,
+    "uncertainty": 0.25,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_waste"
+  },
+  {
+    "id": "waste_recycled",
+    "label": {
+      "es": "Residuos reciclados (kg)",
+      "en": "Recycled waste (kg)"
+    },
+    "category": "waste",
+    "scope": 3,
+    "scope3Category": 5,
+    "unit": "kg",
+    "value": 0.004686,
+    "uncertainty": 0.4,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_waste"
+  },
+  {
+    "id": "wastewater_m3",
+    "label": {
+      "es": "Aguas residuales tratadas (m³)",
+      "en": "Treated wastewater (m³)"
+    },
+    "category": "water",
+    "scope": 3,
+    "scope3Category": 5,
+    "unit": "m3",
+    "value": 0.17088,
+    "uncertainty": 0.2,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_wastewater"
+  },
+  {
+    "id": "truck_freight",
+    "label": {
+      "es": "Camión de carga (tonelada·km)",
+      "en": "Truck freight (tonne·km)"
+    },
+    "category": "logistics",
+    "scope": 3,
+    "scope3Category": 4,
+    "unit": "tkm",
+    "value": 0.12226,
+    "uncertainty": 0.2,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_freight"
+  },
+  {
+    "id": "air_freight",
+    "label": {
+      "es": "Carga aérea (tonelada·km)",
+      "en": "Air freight (tonne·km)"
+    },
+    "category": "logistics",
+    "scope": 3,
+    "scope3Category": 4,
+    "unit": "tkm",
+    "value": 0.606,
+    "uncertainty": 0.25,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2024,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_freight"
+  },
+  {
+    "id": "sea_freight",
+    "label": {
+      "es": "Carga marítima (tonelada·km)",
+      "en": "Sea freight (tonne·km)"
+    },
+    "category": "logistics",
+    "scope": 3,
+    "scope3Category": 4,
+    "unit": "tkm",
+    "value": 0.016,
+    "uncertainty": 0.3,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2024,
+    "lastVerified": "2026-10-29",
+    "status": "pending",
+    "waterFactorId": "water_freight"
+  },
+  {
+    "id": "rail_freight",
+    "label": {
+      "es": "Carga ferroviaria (tonelada·km)",
+      "en": "Rail freight (tonne·km)"
+    },
+    "category": "logistics",
+    "scope": 3,
+    "scope3Category": 4,
+    "unit": "tkm",
+    "value": 0.02779,
+    "uncertainty": 0.2,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_freight"
+  },
+  {
+    "id": "event_materials",
+    "label": {
+      "es": "Materiales de montaje y señalética (kg)",
+      "en": "Build and signage materials (kg)"
+    },
+    "category": "events",
+    "scope": 3,
+    "scope3Category": 1,
+    "unit": "kg",
+    "value": 2.5,
+    "uncertainty": 0.45,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "screening",
+    "waterFactorId": "water_materials"
+  },
+  {
+    "id": "end_of_life",
+    "label": {
+      "es": "Fin de vida del producto (kg a vertedero)",
+      "en": "Product end-of-life (kg to landfill)"
+    },
+    "category": "waste",
+    "scope": 3,
+    "scope3Category": 12,
+    "unit": "kg",
+    "value": 0.497,
+    "uncertainty": 0.3,
+    "sourceId": "defra2025",
+    "country": "GLOBAL",
+    "year": 2025,
+    "lastVerified": "2026-10-29",
+    "status": "verified",
+    "waterFactorId": "water_waste"
+  }
+]

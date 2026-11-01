@@ -1,0 +1,35 @@
+{
+  "carbonPerCapita": {
+    "PE": 1.6, "US": 14.5, "GB": 5.0, "ES": 5.2, "MX": 3.6, "CO": 1.9,
+    "CL": 4.5, "AR": 4.0, "BR": 2.3, "DE": 8.2, "FR": 4.8, "EU": 6.8, "GLOBAL": 4.7
+  },
+  "waterPerCapita": {
+    "PE": 1338, "US": 2842, "GB": 1700, "ES": 2461, "MX": 1978, "CO": 1200,
+    "CL": 1800, "AR": 1600, "BR": 1381, "DE": 1800, "FR": 1900, "EU": 1800, "GLOBAL": 1385
+  },
+  "carbonSector": {
+    "services": 2.0,
+    "technology": 3.0,
+    "retail": 3.5,
+    "manufacturing": 12.0,
+    "food": 15.0,
+    "hospitality": 7.0,
+    "education": 2.5,
+    "health": 5.0,
+    "construction": 10.0,
+    "logistics": 9.0,
+    "energy": 25.0,
+    "public": 3.0,
+    "ngo": 2.0,
+    "other": 4.0
+  },
+  "eventPerAttendee": 25,
+  "eventWaterPerAttendee": 0.3,
+  "source": {
+    "org": "Green Owl Labs · compilación",
+    "title": "Promedios de screening: Global Footprint Network 2023, Water Footprint Network, CDP y literatura ISO 20121",
+    "year": 2024,
+    "url": "https://footprintnetwork.org/resources/data/"
+  },
+  "lastVerified": "2026-10-29"
+}

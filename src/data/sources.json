@@ -1,0 +1,206 @@
+{
+  "defra2025": {
+    "org": "UK DESNZ / DEFRA",
+    "title": "Greenhouse gas reporting: conversion factors 2025 (condensed set)",
+    "year": 2025,
+    "url": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2025"
+  },
+  "ipcc_ar5": {
+    "org": "IPCC",
+    "title": "Fifth Assessment Report, WG1, Chapter 8: Anthropogenic and Natural Radiative Forcing",
+    "year": 2014,
+    "url": "https://www.ipcc.ch/report/ar5/wg1/"
+  },
+  "ipcc_ar6": {
+    "org": "IPCC",
+    "title": "Sixth Assessment Report, WG1, Chapter 7: The Earth's Energy Budget, Climate Feedbacks and Climate Sensitivity",
+    "year": 2021,
+    "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/"
+  },
+  "epa_egrid": {
+    "org": "US EPA",
+    "title": "Emissions & Generation Resource Integrated Database (eGRID) 2022",
+    "year": 2024,
+    "url": "https://www.epa.gov/egrid"
+  },
+  "iea": {
+    "org": "International Energy Agency",
+    "title": "Emissions Factors 2023 / World Energy Outlook",
+    "year": 2023,
+    "url": "https://www.iea.org/data-and-statistics"
+  },
+  "minam_pe": {
+    "org": "MINAM Perú",
+    "title": "Factores de emisión del SEIN para el cálculo de la huella de carbono",
+    "year": 2022,
+    "url": "https://www.gob.pe/minam"
+  },
+  "coes_pe": {
+    "org": "COES SINAC",
+    "title": "Estadísticas anuales del SEIN y factor de emisión del sistema eléctrico",
+    "year": 2023,
+    "url": "https://www.coes.org.pe/Portal/publicaciones/estadisticas"
+  },
+  "ree_es": {
+    "org": "Red Eléctrica de España",
+    "title": "Emisiones de CO2 asociadas a la generación de electricidad en España",
+    "year": 2023,
+    "url": "https://www.ree.es/es/datos/generacion/no-renovables-detalle-emisiones-CO2"
+  },
+  "semarnat_mx": {
+    "org": "SEMARNAT / CRE México",
+    "title": "Factor de emisión del Sistema Eléctrico Nacional",
+    "year": 2023,
+    "url": "https://www.gob.mx/semarnat"
+  },
+  "xm_co": {
+    "org": "XM Colombia",
+    "title": "Factor de emisión de gases de efecto invernadero del SIN",
+    "year": 2023,
+    "url": "https://www.xm.com.co/"
+  },
+  "coord_cl": {
+    "org": "Coordinador Eléctrico Nacional de Chile",
+    "title": "Factores de emisión del Sistema Eléctrico Nacional",
+    "year": 2023,
+    "url": "https://www.coordinador.cl/"
+  },
+  "cammesa_ar": {
+    "org": "CAMMESA Argentina",
+    "title": "Factor de emisión del Sistema Interconectado Nacional",
+    "year": 2023,
+    "url": "https://www.cammesa.com/"
+  },
+  "mcti_br": {
+    "org": "MCTI Brasil",
+    "title": "Fator médio de emissão do Sistema Interligado Nacional",
+    "year": 2023,
+    "url": "https://www.gov.br/mcti/"
+  },
+  "uba_de": {
+    "org": "Umweltbundesamt (UBA) Alemania",
+    "title": "Strom- und Wärmeversorgung: CO2-Emissionen pro Kilowattstunde",
+    "year": 2023,
+    "url": "https://www.umweltbundesamt.de/"
+  },
+  "rte_fr": {
+    "org": "RTE Francia",
+    "title": "Bilan électrique et intensité carbone de l'électricité",
+    "year": 2023,
+    "url": "https://www.rte-france.com/"
+  },
+  "eea_eu": {
+    "org": "European Environment Agency",
+    "title": "Greenhouse gas emission intensity of electricity generation in Europe",
+    "year": 2023,
+    "url": "https://www.eea.europa.eu/data-and-maps/daviz/co2-emission-intensity-14"
+  },
+  "poore_nemecek": {
+    "org": "Poore & Nemecek, Science",
+    "title": "Reducing food's environmental impacts through producers and consumers",
+    "year": 2018,
+    "url": "https://doi.org/10.1126/science.aaq0216"
+  },
+  "wfn_food": {
+    "org": "Water Footprint Network / Mekonnen & Hoekstra",
+    "title": "The green, blue and grey water footprint of crops and animal products",
+    "year": 2012,
+    "url": "https://www.waterfootprint.org/resources/interactive-tools/product-gallery/"
+  },
+  "wfn": {
+    "org": "Water Footprint Network",
+    "title": "Water Footprint Assessment Manual y National Water Footprint Explorer",
+    "year": 2011,
+    "url": "https://www.waterfootprint.org/resources/interactive-tools/national-water-footprint-explorer/"
+  },
+  "aware": {
+    "org": "WULCA / Boulay et al.",
+    "title": "AWARE characterization factors for water scarcity (v1.2)",
+    "year": 2018,
+    "url": "https://wulca-waterlca.org/aware/"
+  },
+  "wri_aqueduct": {
+    "org": "World Resources Institute",
+    "title": "Aqueduct 4.0 Water Risk Atlas",
+    "year": 2023,
+    "url": "https://www.wri.org/aqueduct"
+  },
+  "epa_useeio": {
+    "org": "US EPA",
+    "title": "US Environmentally-Extended Input-Output (USEEIO) supply chain emission factors",
+    "year": 2021,
+    "url": "https://www.epa.gov/useio"
+  },
+  "iea_4e": {
+    "org": "IEA 4E TCP",
+    "title": "Network energy use and emissions of data transmission",
+    "year": 2020,
+    "url": "https://www.iea-4e.org/"
+  },
+  "carbon_trust": {
+    "org": "Carbon Trust",
+    "title": "Carbon impact of video streaming (white paper)",
+    "year": 2021,
+    "url": "https://www.carbontrust.com/resources/carbon-impact-of-video-streaming"
+  },
+  "wrap": {
+    "org": "WRAP UK",
+    "title": "Valuing our clothes: the cost of UK fashion",
+    "year": 2017,
+    "url": "https://wrap.org.uk/resources/report/valuing-our-clothes-cost-uk-fashion"
+  },
+  "gfn": {
+    "org": "Global Footprint Network",
+    "title": "National Footprint and Biocapacity Accounts (2023 edition)",
+    "year": 2023,
+    "url": "https://footprintnetwork.org/resources/data/"
+  },
+  "ghg_protocol": {
+    "org": "GHG Protocol",
+    "title": "Corporate Accounting and Reporting Standard; Scope 2 Guidance; Corporate Value Chain (Scope 3) Standard",
+    "year": 2015,
+    "url": "https://ghgprotocol.org/standards"
+  },
+  "iso_14064": {
+    "org": "ISO",
+    "title": "ISO 14064-1:2018 Greenhouse gases — Quantification and reporting at organization level",
+    "year": 2018,
+    "url": "https://www.iso.org/standard/66453.html"
+  },
+  "iso_14046": {
+    "org": "ISO",
+    "title": "ISO 14046:2014 Environmental management — Water footprint — Principles, requirements and guidelines",
+    "year": 2014,
+    "url": "https://www.iso.org/standard/43243.html"
+  },
+  "iso_20121": {
+    "org": "ISO",
+    "title": "ISO 20121:2024 Event sustainability management systems",
+    "year": 2024,
+    "url": "https://www.iso.org/standard/86389.html"
+  },
+  "hotel_footprint": {
+    "org": "International Tourism Partnership / Greenview",
+    "title": "Hotel Footprinting Tool — Cornell Hotel Sustainability Benchmarking Index",
+    "year": 2023,
+    "url": "https://www.hotelfootprints.org/"
+  },
+  "ana_pe": {
+    "org": "Autoridad Nacional del Agua (ANA), Perú",
+    "title": "Programa Huella Hídrica y Certificado Azul",
+    "year": 2023,
+    "url": "https://www.gob.pe/ana"
+  },
+  "fao": {
+    "org": "FAO",
+    "title": "FAOSTAT and Water accounting in agriculture",
+    "year": 2023,
+    "url": "https://www.fao.org/faostat/"
+  },
+  "benchmark_compilation": {
+    "org": "Green Owl Labs · compilación",
+    "title": "Promedios sectoriales y por asistente a evento a partir de CDP, EPA, OWID y literatura ISO 20121; valores de screening",
+    "year": 2024,
+    "url": "https://ghgprotocol.org/"
+  }
+}

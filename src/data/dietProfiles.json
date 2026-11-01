@@ -1,0 +1,59 @@
+{
+  "sourceId": "poore_nemecek",
+  "assumption": {
+    "es": "Perfiles de consumo anual por persona construidos a partir de patrones dietéticos documentados y de las huellas por kg de Poore & Nemecek (2018). Son estimaciones de screening para orientar decisiones, no una encuesta alimentaria.",
+    "en": "Annual per-person consumption profiles built from documented dietary patterns and Poore & Nemecek (2018) per-kg footprints. Screening estimates to guide decisions, not a dietary survey."
+  },
+  "profiles": [
+    {
+      "id": "vegan",
+      "label": { "es": "Vegano", "en": "Vegan" },
+      "description": { "es": "Sin productos de origen animal.", "en": "No animal products." },
+      "kgPerYear": {
+        "beef": 0, "lamb": 0, "pork": 0, "poultry": 0, "fish": 0, "eggs": 0,
+        "milk": 0, "cheese": 0, "legumes": 45, "vegetables": 140, "fruit": 140,
+        "cereals": 90, "rice": 30, "oils": 14, "sugar": 18, "coffee": 4, "chocolate": 4
+      }
+    },
+    {
+      "id": "vegetarian",
+      "label": { "es": "Vegetariano", "en": "Vegetarian" },
+      "description": { "es": "Sin carne ni pescado; incluye lácteos y huevos.", "en": "No meat or fish; includes dairy and eggs." },
+      "kgPerYear": {
+        "beef": 0, "lamb": 0, "pork": 0, "poultry": 0, "fish": 0, "eggs": 12,
+        "milk": 90, "cheese": 14, "legumes": 35, "vegetables": 130, "fruit": 125,
+        "cereals": 80, "rice": 25, "oils": 12, "sugar": 15, "coffee": 4, "chocolate": 4
+      }
+    },
+    {
+      "id": "low_meat",
+      "label": { "es": "Omnívoro bajo en carne", "en": "Low-meat omnivore" },
+      "description": { "es": "Carne 1-2 veces por semana.", "en": "Meat once or twice a week." },
+      "kgPerYear": {
+        "beef": 8, "lamb": 2, "pork": 10, "poultry": 14, "fish": 10, "eggs": 8,
+        "milk": 70, "cheese": 10, "legumes": 22, "vegetables": 115, "fruit": 105,
+        "cereals": 70, "rice": 20, "oils": 11, "sugar": 14, "coffee": 4, "chocolate": 3
+      }
+    },
+    {
+      "id": "medium",
+      "label": { "es": "Omnívoro medio", "en": "Medium omnivore" },
+      "description": { "es": "Carne 3-4 veces por semana.", "en": "Meat three to four times a week." },
+      "kgPerYear": {
+        "beef": 22, "lamb": 3, "pork": 18, "poultry": 24, "fish": 12, "eggs": 9,
+        "milk": 65, "cheese": 11, "legumes": 16, "vegetables": 100, "fruit": 95,
+        "cereals": 65, "rice": 22, "oils": 10, "sugar": 14, "coffee": 4, "chocolate": 3
+      }
+    },
+    {
+      "id": "high_meat",
+      "label": { "es": "Omnívoro alto en carne", "en": "High-meat omnivore" },
+      "description": { "es": "Carne casi a diario, incluidas carnes rojas.", "en": "Meat almost daily, including red meat." },
+      "kgPerYear": {
+        "beef": 42, "lamb": 6, "pork": 24, "poultry": 30, "fish": 14, "eggs": 10,
+        "milk": 70, "cheese": 12, "legumes": 10, "vegetables": 90, "fruit": 85,
+        "cereals": 60, "rice": 20, "oils": 10, "sugar": 15, "coffee": 4, "chocolate": 4
+      }
+    }
+  ]
+}

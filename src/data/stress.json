@@ -1,0 +1,15 @@
+[
+  { "country": "PE", "aware": 2.2, "wriCategory": "High", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "US", "aware": 2.1, "wriCategory": "Low-Medium", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "GB", "aware": 1.4, "wriCategory": "Low", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "ES", "aware": 3.6, "wriCategory": "High", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "MX", "aware": 3.0, "wriCategory": "High", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "CO", "aware": 1.2, "wriCategory": "Low", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "CL", "aware": 4.4, "wriCategory": "Extremely High", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "AR", "aware": 2.4, "wriCategory": "Medium-High", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "BR", "aware": 1.0, "wriCategory": "Low", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "DE", "aware": 2.1, "wriCategory": "Low-Medium", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "FR", "aware": 2.0, "wriCategory": "Low-Medium", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "EU", "aware": 2.4, "wriCategory": "Medium-High", "sourceId": "aware", "lastVerified": "2026-10-29" },
+  { "country": "GLOBAL", "aware": 2.2, "wriCategory": "Medium-High", "sourceId": "aware", "lastVerified": "2026-10-29" }
+]

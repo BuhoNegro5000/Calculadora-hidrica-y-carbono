@@ -1,0 +1,174 @@
+/* ============================================================
+   Green Owl Labs · Design tokens
+   Una paleta de bosque, lima, agua y ámbar sobre papel crema.
+   ============================================================ */
+
+:root {
+  color-scheme: light;
+
+  /* Tipografía */
+  --font-serif: 'Fraunces Variable', 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope Variable', 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+
+  /* Bosque */
+  --forest-950: #061b16;
+  --forest-900: #0a2a22;
+  --forest-800: #0e3a30;
+  --forest-700: #145044;
+  --forest-600: #1a6555;
+  --forest-500: #237c68;
+  --forest-400: #3f9c85;
+  --forest-300: #74bda9;
+  --forest-200: #b4dccf;
+  --forest-100: #dcefe8;
+
+  /* Lima */
+  --lime-600: #7d9c12;
+  --lime-500: #9dbf22;
+  --lime-400: #b9df3b;
+  --lime-300: #d3ec86;
+  --lime-200: #e9f5bd;
+  --lime-100: #f4fadf;
+
+  /* Agua */
+  --water-700: #155f7f;
+  --water-600: #1e7fa8;
+  --water-500: #2f9fbe;
+  --water-400: #62bdd4;
+  --water-300: #a3dbe6;
+  --water-200: #d3eef3;
+  --water-100: #eaf7f9;
+
+  /* Ámbar y arcilla */
+  --amber-700: #6f4a08;
+  --amber-600: #a86f0c;
+  --amber-500: #d99a2b;
+  --amber-400: #ecb95c;
+  --amber-200: #f8e5bd;
+  --clay-600: #a1462c;
+  --clay-500: #c2603f;
+  --clay-300: #e6a68f;
+
+  /* Neutros cálidos */
+  --cream-50: #fdfbf4;
+  --cream-100: #f8f3e7;
+  --cream-200: #f1ead9;
+  --cream-300: #e6dcc6;
+  --cream-400: #d3c8ae;
+  --ink-900: #12201c;
+  --ink-800: #1c2c27;
+  --ink-700: #2b3d37;
+  --ink-600: #43564f;
+  --ink-500: #5f6e65;
+  --ink-400: #84938c;
+  --ink-300: #aab6b0;
+  --ink-200: #ccd4d0;
+
+  /* Semánticos */
+  --ok: #23755a;
+  --warn: #c2871a;
+  --danger: #b34b36;
+  --info: #1f6a87;
+
+  /* Superficies (claro) */
+  --bg: var(--cream-100);
+  --bg-deep: var(--cream-200);
+  --surface: #fffdf7;
+  --surface-2: #fbf7ec;
+  --surface-3: #f3ecdc;
+  --surface-inverse: var(--forest-900);
+  --ink: var(--ink-900);
+  --ink-soft: var(--ink-600);
+  --ink-mute: var(--ink-500);
+  --ink-faint: #68776e;
+  --line: rgba(18, 32, 28, 0.13);
+  --line-soft: rgba(18, 32, 28, 0.075);
+  --line-strong: rgba(18, 32, 28, 0.24);
+  --brand: var(--forest-700);
+  --brand-strong: var(--forest-900);
+  --brand-soft: var(--forest-100);
+  --accent: var(--lime-400);
+  --accent-ink: var(--forest-950);
+  --water: var(--water-600);
+  --amber: var(--amber-500);
+
+  /* Sombras */
+  --shadow-xs: 0 1px 2px rgba(18, 32, 28, 0.06);
+  --shadow-sm: 0 2px 8px rgba(18, 32, 28, 0.06), 0 1px 2px rgba(18, 32, 28, 0.04);
+  --shadow-md: 0 14px 34px -18px rgba(18, 32, 28, 0.28), 0 3px 10px rgba(18, 32, 28, 0.05);
+  --shadow-lg: 0 34px 70px -30px rgba(10, 42, 34, 0.34), 0 8px 22px rgba(18, 32, 28, 0.07);
+  --shadow-glow: 0 0 0 1px rgba(185, 223, 59, 0.4), 0 18px 50px -20px rgba(185, 223, 59, 0.4);
+
+  /* Radios */
+  --r-xs: 6px;
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --r-2xl: 38px;
+  --r-pill: 999px;
+
+  /* Espacio */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-7: 2rem;
+  --sp-8: 2.5rem;
+  --sp-9: 3rem;
+  --sp-10: 4rem;
+  --sp-11: 5rem;
+  --sp-12: 7rem;
+
+  --container: 1240px;
+  --container-narrow: 880px;
+  --header-h: 72px;
+
+  /* Movimiento */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 460ms;
+
+  /* Textura */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.86' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.16'/%3E%3C/svg%3E");
+  --contour: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='900' viewBox='0 0 900 900'%3E%3Cg fill='none' stroke='%23145044' stroke-opacity='0.075' stroke-width='1'%3E%3Cpath d='M-80 240c150-90 260 55 430 15s230-130 380-70 190-40 250-20'/%3E%3Cpath d='M-80 300c150-90 260 55 430 15s230-130 380-70 190-40 250-20'/%3E%3Cpath d='M-80 360c150-90 260 55 430 15s230-130 380-70 190-40 250-20'/%3E%3Cpath d='M-80 600c170-70 250 80 430 30s240-150 400-70 220-50 260-20'/%3E%3Cpath d='M-80 660c170-70 250 80 430 30s240-150 400-70 220-50 260-20'/%3E%3Cpath d='M-80 720c170-70 250 80 430 30s240-150 400-70 220-50 260-20'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #071a15;
+  --bg-deep: #05130f;
+  --surface: #0c2821;
+  --surface-2: #0f3028;
+  --surface-3: #143a31;
+  --surface-inverse: var(--cream-100);
+  --ink: #f2f0e5;
+  --ink-soft: #c3cec8;
+  --ink-mute: #9aaca4;
+  --ink-faint: #82978e;
+  --line: rgba(236, 244, 239, 0.14);
+  --line-soft: rgba(236, 244, 239, 0.07);
+  --line-strong: rgba(236, 244, 239, 0.26);
+  --ok: #74c9a5;
+  --brand: var(--lime-400);
+  --brand-strong: var(--lime-300);
+  --brand-soft: #173c32;
+  --accent: var(--lime-400);
+  --accent-ink: var(--forest-950);
+  --water: var(--water-400);
+  --amber: var(--amber-400);
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 18px 40px -20px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 40px 80px -30px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 0 1px rgba(185, 223, 59, 0.35), 0 18px 50px -20px rgba(185, 223, 59, 0.22);
+
+  --contour: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='900' viewBox='0 0 900 900'%3E%3Cg fill='none' stroke='%23b9df3b' stroke-opacity='0.05' stroke-width='1'%3E%3Cpath d='M-80 240c150-90 260 55 430 15s230-130 380-70 190-40 250-20'/%3E%3Cpath d='M-80 300c150-90 260 55 430 15s230-130 380-70 190-40 250-20'/%3E%3Cpath d='M-80 360c150-90 260 55 430 15s230-130 380-70 190-40 250-20'/%3E%3Cpath d='M-80 600c170-70 250 80 430 30s240-150 400-70 220-50 260-20'/%3E%3Cpath d='M-80 660c170-70 250 80 430 30s240-150 400-70 220-50 260-20'/%3E%3Cpath d='M-80 720c170-70 250 80 430 30s240-150 400-70 220-50 260-20'/%3E%3C/g%3E%3C/svg%3E");
+}

@@ -1,0 +1,205 @@
+{
+  "version": "2026.10",
+  "generatedAt": "2026-10-30",
+  "protocol": "Descubrimiento con fuentes oficiales y abiertas. Los agregadores con API solo se aceptan si su licencia permite uso comercial. Toda propuesta entra como factor 'pendiente' hasta verificación.",
+  "gaps": [
+    {
+      "id": "gap_pe_electricity_2024",
+      "priority": "high",
+      "kind": "carbon",
+      "category": "energy",
+      "country": "PE",
+      "year": 2024,
+      "gas": "CO2, CH4, N2O",
+      "title": { "es": "Factor de red del SEIN 2024-2025", "en": "SEIN grid factor 2024-2025" },
+      "rationale": { "es": "El factor peruano actual está marcado como pendiente y usa un valor aproximado de 2022. Falta el factor oficial del año del inventario y su desglose por gas.", "en": "The Peruvian factor is pending and uses an approximate 2022 value. The official factor for the inventory year and its gas breakdown are missing." },
+      "action": { "es": "Contrastar MINAM y COES; registrar valor, año, resolución y URL. Crear override con motivo y fuente.", "en": "Cross-check MINAM and COES; record value, year, resolution and URL. Create an override with reason and source." },
+      "sources": [
+        { "org": "MINAM", "title": "Factores de emisión del SEIN", "url": "https://www.gob.pe/minam", "license": "Datos abiertos del Estado peruano" },
+        { "org": "COES SINAC", "title": "Estadísticas anuales y factor de emisión", "url": "https://www.coes.org.pe/Portal/publicaciones/estadisticas", "license": "Uso con atribución" },
+        { "org": "MINEM", "title": "Balance Nacional de Energía", "url": "https://www.gob.pe/minem", "license": "Datos abiertos" }
+      ]
+    },
+    {
+      "id": "gap_pe_water_ana",
+      "priority": "high",
+      "kind": "water",
+      "category": "water",
+      "country": "PE",
+      "year": 2024,
+      "waterType": "blue",
+      "title": { "es": "Agua azul y gris específica del Perú", "en": "Peru-specific blue and grey water" },
+      "rationale": { "es": "Todos los factores hídricos son GLOBAL. No hay intensidades por cuenca, sector o límite de vertido peruano (ANA, DS 004-2017-MINAM).", "en": "All water factors are GLOBAL. There are no basin, sector or Peruvian discharge-limit intensities (ANA, DS 004-2017-MINAM)." },
+      "action": { "es": "Incorporar factores ANA por cuenca y límites de calidad; declarar el método de dilución y la fuente.", "en": "Add ANA basin factors and quality limits; declare the dilution method and source." },
+      "sources": [
+        { "org": "ANA", "title": "Huella hídrica y recursos hídricos del Perú", "url": "https://www.gob.pe/ana", "license": "Datos abiertos del Estado peruano" },
+        { "org": "MINAM", "title": "Estándares de calidad ambiental para agua", "url": "https://www.gob.pe/minam", "license": "Normativa pública" },
+        { "org": "Water Footprint Network", "title": "Product water footprint gallery", "url": "https://www.waterfootprint.org/resources/interactive-tools/product-gallery/", "license": "Uso con atribución" }
+      ]
+    },
+    {
+      "id": "gap_combustion_gas_split",
+      "priority": "high",
+      "kind": "carbon",
+      "category": "energy",
+      "country": "GLOBAL",
+      "year": 2025,
+      "gas": "CO2, CH4, N2O",
+      "title": { "es": "Desglose por gas en combustibles", "en": "Fuel combustion gas breakdown" },
+      "rationale": { "es": "Los factores base de combustión solo declaran CO₂e agregado. El esquema exige gases y GWP para trazabilidad completa.", "en": "Base combustion factors only declare aggregate CO₂e. The schema requires gases and GWP for full traceability." },
+      "action": { "es": "Extraer CO₂, CH₄ y N₂O de DEFRA 2025 o IPCC EFDB y crear overrides con Σ(gas × GWP) verificado.", "en": "Extract CO₂, CH₄ and N₂O from DEFRA 2025 or IPCC EFDB and create overrides with verified Σ(gas × GWP)." },
+      "sources": [
+        { "org": "UK DESNZ / DEFRA", "title": "Conversion factors 2025", "url": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2025", "license": "Open Government Licence v3.0" },
+        { "org": "IPCC", "title": "Emission Factor Database (EFDB)", "url": "https://www.ipcc-nggip.iges.or.jp/EFDB/main.php", "license": "Uso con atribución" },
+        { "org": "US EPA", "title": "GHG Emission Factors Hub", "url": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub", "license": "Dominio público" }
+      ]
+    },
+    {
+      "id": "gap_food_country",
+      "priority": "medium",
+      "kind": "carbon",
+      "category": "food",
+      "country": "PE",
+      "year": 2023,
+      "gas": "CO2e",
+      "title": { "es": "Alimentos con factor peruano o regional", "en": "Peru or regional food factors" },
+      "rationale": { "es": "Los 17 factores alimentarios son globales (Poore & Nemecek 2018). Falta producción local, transporte y cadena de frío peruana.", "en": "The 17 food factors are global (Poore & Nemecek 2018). Local production, transport and Peruvian cold chain are missing." },
+      "action": { "es": "Priorizar productos de la canasta peruana; usar Agribalyse/FAO y completar con dato primario de proveedor cuando exista.", "en": "Prioritise Peruvian basket products; use Agribalyse/FAO and supplement with supplier primary data where available." },
+      "sources": [
+        { "org": "ADEME", "title": "Agribalyse", "url": "https://agribalyse.ademe.fr/", "license": "Licencia abierta, revisar versión" },
+        { "org": "FAO", "title": "FAOSTAT emissions and food balances", "url": "https://www.fao.org/faostat/", "license": "CC BY 4.0" },
+        { "org": "Poore & Nemecek", "title": "Reducing food's environmental impacts", "url": "https://doi.org/10.1126/science.aaq0216", "license": "CC BY 4.0" }
+      ]
+    },
+    {
+      "id": "gap_purchased_goods_spend",
+      "priority": "medium",
+      "kind": "carbon",
+      "category": "goods",
+      "country": "GLOBAL",
+      "year": 2023,
+      "gas": "CO2e",
+      "title": { "es": "Bienes comprados con método de gasto", "en": "Purchased goods with spend-based method" },
+      "rationale": { "es": "Hay 10 factores de bienes, pero no una tabla spend-based por sector y país para Scope 3 categoría 1.", "en": "There are 10 goods factors, but no spend-based table by sector and country for Scope 3 category 1." },
+      "action": { "es": "Evaluar EXIOBASE y Open CEDA; verificar licencia comercial antes de incorporar. Declarar método 'gasto' y deflactar al año base.", "en": "Assess EXIOBASE and Open CEDA; verify commercial licence before use. Declare 'spend' method and deflate to the base year." },
+      "sources": [
+        { "org": "EXIOBASE", "title": "Environmentally extended input-output database", "url": "https://www.exiobase.eu/", "license": "Revisar licencia por versión" },
+        { "org": "Open CEDA", "title": "Open Climate & Environment Data Aggregator", "url": "https://openceda.org/", "license": "Revisar licencia" },
+        { "org": "US EPA", "title": "USEEIO", "url": "https://www.epa.gov/useio", "license": "Dominio público" }
+      ]
+    },
+    {
+      "id": "gap_events_water",
+      "priority": "medium",
+      "kind": "water",
+      "category": "events",
+      "country": "GLOBAL",
+      "year": 2024,
+      "waterType": "mixed",
+      "title": { "es": "Agua por asistente en eventos (ISO 20121)", "en": "Water per attendee for events (ISO 20121)" },
+      "rationale": { "es": "No hay factor hídrico específico por asistente, alimento o noche de hotel para eventos.", "en": "There is no water factor per attendee, meal or hotel night for events." },
+      "action": { "es": "Construir factores de consumo directo e indirecto por asistente y declarar el alcance del evento.", "en": "Build direct and indirect water factors per attendee and declare the event boundary." },
+      "sources": [
+        { "org": "ISO", "title": "ISO 20121:2024 Event sustainability management systems", "url": "https://www.iso.org/standard/86389.html", "license": "Referencia normativa" },
+        { "org": "Water Footprint Network", "title": "Water footprint assessment manual", "url": "https://www.waterfootprint.org/resources/", "license": "Uso con atribución" }
+      ]
+    },
+    {
+      "id": "gap_waste_pe",
+      "priority": "medium",
+      "kind": "carbon",
+      "category": "waste",
+      "country": "PE",
+      "year": 2023,
+      "gas": "CH4, CO2e",
+      "title": { "es": "Residuos con factor peruano", "en": "Peru-specific waste factors" },
+      "rationale": { "es": "Los factores de residuos son globales y no reflejan rellenos sanitarios, reciclaje informal ni tratamiento local.", "en": "Waste factors are global and do not reflect local landfills, informal recycling or treatment." },
+      "action": { "es": "Usar IPCC Waste Model y datos MINAM/OEFA; documentar composición y destino.", "en": "Use the IPCC Waste Model and MINAM/OEFA data; document composition and destination." },
+      "sources": [
+        { "org": "MINAM", "title": "Gestión de residuos sólidos", "url": "https://www.gob.pe/minam", "license": "Datos abiertos" },
+        { "org": "IPCC", "title": "Waste Model / EFDB", "url": "https://www.ipcc-nggip.iges.or.jp/EFDB/main.php", "license": "Uso con atribución" },
+        { "org": "OEFA", "title": "Estadísticas de fiscalización ambiental", "url": "https://www.oefa.gob.pe/", "license": "Datos abiertos" }
+      ]
+    },
+    {
+      "id": "gap_refrigerants_ar6",
+      "priority": "high",
+      "kind": "carbon",
+      "category": "refrigerants",
+      "country": "GLOBAL",
+      "year": 2021,
+      "gas": "HFC-32, HFC-134a, HFC-410A, HCFC-22",
+      "title": { "es": "Refrigerantes con GWP AR6 verificados", "en": "Refrigerants with verified AR6 GWP" },
+      "rationale": { "es": "Solo hay 5 factores de refrigerantes y no todos declaran el GWP usado por gas.", "en": "Only 5 refrigerant factors exist and not all declare the per-gas GWP used." },
+      "action": { "es": "Completar la tabla por refrigerante con GWP AR5/AR6 y fuente IPCC; validar que CO₂e = fuga × GWP.", "en": "Complete the refrigerant table with AR5/AR6 GWP and IPCC source; validate CO₂e = leakage × GWP." },
+      "sources": [
+        { "org": "IPCC", "title": "AR6 WG1 Chapter 7, Table 7.15", "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/", "license": "Cita requerida" },
+        { "org": "UK DESNZ / DEFRA", "title": "Conversion factors 2025 · refrigerants", "url": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2025", "license": "Open Government Licence v3.0" }
+      ]
+    },
+    {
+      "id": "gap_logistics_region",
+      "priority": "medium",
+      "kind": "carbon",
+      "category": "logistics",
+      "country": "PE",
+      "year": 2024,
+      "gas": "CO2e",
+      "title": { "es": "Logística t·km con factor regional", "en": "Freight t·km with regional factor" },
+      "rationale": { "es": "Los 4 factores logísticos son globales o de Reino Unido; faltan rutas y modos peruanos.", "en": "The 4 logistics factors are global or UK-based; Peruvian routes and modes are missing." },
+      "action": { "es": "Usar GLEC Framework y datos de operadores; declarar carga, distancia, retorno vacío y factor de asignación.", "en": "Use the GLEC Framework and carrier data; declare load, distance, empty return and allocation factor." },
+      "sources": [
+        { "org": "Smart Freight Centre", "title": "GLEC Framework", "url": "https://www.smartfreightcentre.org/en/our-programs/global-logistics-emissions-council/", "license": "Uso con atribución" },
+        { "org": "DEFRA", "title": "Freight conversion factors", "url": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2025", "license": "Open Government Licence v3.0" }
+      ]
+    },
+    {
+      "id": "gap_water_components",
+      "priority": "high",
+      "kind": "water",
+      "category": "water",
+      "country": "GLOBAL",
+      "year": 2012,
+      "waterType": "green",
+      "title": { "es": "Desglose azul/verde/gris completo", "en": "Complete blue/green/grey breakdown" },
+      "rationale": { "es": "13 de 38 factores hídricos tienen verde = 0 y todos son GLOBAL. El desglose no permite distinguir agua de lluvia, superficial ni gris por producto.", "en": "13 of 38 water factors have green = 0 and all are GLOBAL. The breakdown cannot separate rainwater, surface and grey water per product." },
+      "action": { "es": "Reemplazar proxies por factores WFN/Mekonnen & Hoekstra por producto y año; documentar límites de dilución.", "en": "Replace proxies with WFN/Mekonnen & Hoekstra product factors and year; document dilution limits." },
+      "sources": [
+        { "org": "Water Footprint Network", "title": "Product gallery", "url": "https://www.waterfootprint.org/resources/interactive-tools/product-gallery/", "license": "Uso con atribución" },
+        { "org": "WULCA", "title": "AWARE characterization factors", "url": "https://wulca-waterlca.org/aware/", "license": "Uso con atribución" }
+      ]
+    },
+    {
+      "id": "gap_fao_agriculture",
+      "priority": "medium",
+      "kind": "water",
+      "category": "food",
+      "country": "PE",
+      "year": 2023,
+      "waterType": "green",
+      "title": { "es": "Agua verde agrícola por cultivo", "en": "Agricultural green water by crop" },
+      "rationale": { "es": "No hay factores de agua verde por cultivo ni por región agrícola peruana.", "en": "There are no green water factors by crop or Peruvian agricultural region." },
+      "action": { "es": "Integrar FAOSTAT/AQUASTAT y ANA; separar agua verde de azul y declarar el periodo climático.", "en": "Integrate FAOSTAT/AQUASTAT and ANA; separate green from blue water and declare the climate period." },
+      "sources": [
+        { "org": "FAO", "title": "AQUASTAT", "url": "https://www.fao.org/aquastat/", "license": "CC BY 4.0" },
+        { "org": "ANA", "title": "Estadística agraria y recursos hídricos", "url": "https://www.gob.pe/ana", "license": "Datos abiertos" }
+      ]
+    },
+    {
+      "id": "gap_custom_governance",
+      "priority": "high",
+      "kind": "carbon",
+      "category": "other",
+      "country": "GLOBAL",
+      "year": 2026,
+      "gas": "CO2e",
+      "title": { "es": "Gobierno de factores personalizados", "en": "Custom factor governance" },
+      "rationale": { "es": "Sin backend no existe aprobación central. Se preparó un flujo local Lector → Editor → Administrador con auditoría, pero no reemplaza un repositorio organizacional.", "en": "Without a backend there is no central approval. A local Reader → Editor → Administrator flow with audit is provided, but it does not replace an organisational repository." },
+      "action": { "es": "Mantener el mismo esquema JSON y migrar la capa personalizada a una tabla con historial cuando exista backend.", "en": "Keep the same JSON schema and migrate the custom layer to a table with history when a backend exists." },
+      "sources": [
+        { "org": "GHG Protocol", "title": "Corporate Standard and Scope 3 Standard", "url": "https://ghgprotocol.org/standards", "license": "Uso con atribución" },
+        { "org": "ISO", "title": "ISO 14064-1:2018", "url": "https://www.iso.org/standard/66453.html", "license": "Referencia normativa" }
+      ]
+    }
+  ]
+}
